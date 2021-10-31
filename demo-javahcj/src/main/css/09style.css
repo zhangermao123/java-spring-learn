@@ -1,0 +1,43 @@
+#nav{
+    width: 300px;
+    background: #a0a0a0;
+
+}
+.title{
+    font-size: 18px;
+    font-weight: weight;
+    text-indent: 1em;
+    line-height: 35px;
+    background: red url("../resources/image/down.jpeg") 280px 10px no-repeat;
+}
+
+/*
+list-style:
+    none 去掉圆点
+    circle 空心圆
+    decimal 数字
+    square 正方形
+background:
+  url("../resources/image/right.jpeg") 背景使用图片
+background-position
+ 起始位置 默认第二值center*/
+
+ul li{
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+    background: url("../resources/image/right.jpeg");
+    background-repeat: no-repeat;
+    background-position: 240px 4px
+}
+
+a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}

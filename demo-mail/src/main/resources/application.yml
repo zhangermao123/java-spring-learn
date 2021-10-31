@@ -1,0 +1,35 @@
+server:
+  port: 8769
+spring:
+  mail:
+  #smtp服务主机
+    host: smtp.qq.com
+    port: 465
+    #服务协议
+    protocol: smtp
+    #编码集
+    default-encoding: UTF-8
+    #发送邮件的账户
+    username: ENC(LRFYKVFJJKJZVbEuajJYAmvXqzdtHvj0FWZmyLF7gJk=)
+    #授权码
+    password: ENC(aRj5M0I4wFLJ4wodnKsu1U4V8l+Xa8KaPUKOkzq7fEA=)
+    test-connection: true
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+        display:
+          sendmail: springboot-test
+
+# 为 jasypt 配置解密秘钥
+#jasypt:
+#  encryptor:
+#    password: xxxx
+
+toemail:
+  name: ENC(HIBCzY5+QtcJJ7SaKVUeijAVPGjKz/tg76TzNoSPe8k=)

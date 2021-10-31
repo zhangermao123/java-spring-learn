@@ -1,0 +1,18 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /demo
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+#    publisher-confirms: true #如果对异步消息需要回调必须设置为true
+#    # 手动提交消息 设置收到还是自动关闭消息默认设置auto
+    listener:
+      simple:
+        acknowledge-mode: manual
+      direct:
+        acknowledge-mode: manual

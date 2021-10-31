@@ -1,0 +1,8 @@
+application:
+  name: dev demo-properties
+  version: dev 0.0.1-SNAPSHOT
+developer-property:
+  name: dev zhangwei
+  website: dev https//localhost:${server.prot}
+  qq: dev ${random.value}
+  phone-number: dev ${random.uuid}

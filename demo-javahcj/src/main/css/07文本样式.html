@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 颜色color:
+        RGB #
+        RGBA A：
+        text-align: center排版
+        text-indent: 2em 缩进
+        height 和line-height 一致，能让文字居中
+        text-decoration 下划线/中划线/上划线/去下划线
+        -->
+    <style>
+        h1{
+            color: rgba(0,255,255,0.9);
+            text-align: center;
+        }
+        .p1{
+            text-indent: 2em;
+        }
+        .p3{
+            background: #2700ff;
+            height: 80px;
+            line-height: 80px;
+        }
+        #l1{
+            text-decoration: underline;
+        }
+        #l2{
+            text-decoration: line-through;
+        }
+        #l3{
+            text-decoration: overline;
+        }
+        a{
+            text-decoration: none;
+        }
+        img,span{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<h1>css学习</h1>
+<p class="p1">秦疆老师的CSS教程，快速上手CSS必备。从基础到进阶，每一个小知识都带有小案例，学习不枯燥
+</p>
+<p class="p3">狂神说Java系列，努力打造通俗易懂的教程
+</p>
+<p>I have had my invitation to this world's festival, and thus my life has been blessed.</p>
+<hr/>
+<p id="l1">12345678</p>
+<p id="l2">12345678</p>
+<p id="l3">12345678</p>
+<a href="test">去下划线</a>
+<hr/>
+<p>
+    <img src="../resources/image/01.jpeg" width="400dp" height="200dp">
+    <span>测试水平对齐</span>
+</p>
+</body>
+</html>

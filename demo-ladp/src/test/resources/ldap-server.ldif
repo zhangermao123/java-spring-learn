@@ -1,0 +1,10 @@
+#zhangwei example.org
+dn: uid=zw,ou=people,dc=example,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: zhang wei
+sn: zhang
+uid: zw
+userPassword: {SHA}nFCebWjxfaLbHHG1Qk5UU4trbvQ=

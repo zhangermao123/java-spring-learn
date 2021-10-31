@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d057622-9ca6-447e-b446-2daf439d1acd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1snIpj0bvSyIOp56pnGw2LQK3CW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-javahcj/src/main/resources/image" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.123470545" />
+    <property name="project.structure.side.proportion" value="0.24133334" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../spring-boot-demo/demo-actuator/src/main/resources/application.yml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="design.observer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-javahcj/src/main/resources/image" />
+      <recent name="$PROJECT_DIR$/demo-javahcj/src/main/resources" />
+      <recent name="$PROJECT_DIR$/demo-javahcj/src/main/html" />
+      <recent name="$PROJECT_DIR$/demo-algorithm/src/design/command" />
+      <recent name="$PROJECT_DIR$/demo-https/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-javahcj/src/main/resources/image" />
+      <recent name="$PROJECT_DIR$/demo-javahcj/src/main/resources/video" />
+      <recent name="$PROJECT_DIR$/demo-https/src/main/resources" />
+      <recent name="$PROJECT_DIR$/demo-task/task-quartz-sql" />
+      <recent name="$PROJECT_DIR$/demo-orm" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zw" />
+      <recent name="com.zw.pojo.exception" />
+      <recent name="com.zw.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="design.memento" />
+      <recent name="design" />
+      <recent name="com.zw.config" />
+      <recent name="com.zw" />
+      <recent name="com.zw.handler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ArrayTest">
+    <configuration name="AlgTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alogrithm.AlgTest" />
+      <module name="demo-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgorithmUtils" />
+      <module name="demo-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alogrithm.test0728.ArrayTest" />
+      <module name="demo-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoUploadApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zw.DemoUploadApplication" />
+      <module name="demo-upload" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.DesignTest" />
+      <module name="demo-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DesignTest" />
+      <item itemvalue="Application.AlgorithmUtils" />
+      <item itemvalue="Application.AlgTest" />
+      <item itemvalue="Application.DemoUploadApplication" />
+      <item itemvalue="Application.ArrayTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArrayTest" />
+        <item itemvalue="Application.DesignTest" />
+        <item itemvalue="Application.AlgTest" />
+        <item itemvalue="Application.DemoUploadApplication" />
+        <item itemvalue="Application.AlgorithmUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d057622-9ca6-447e-b446-2daf439d1acd" name="Default Changelist" comment="" />
+      <created>1621502114109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621502114109</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-upload/src/main/java/com/zw/service/FileService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-exception-handler/src/main/java/com/zw/handler/DemoExceptionHandler.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-mail/src/main/java/com/zw/service/impl/ToEmailServiceImpl.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-mail/src/main/java/com/zw/controller/EmailController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-mail/src/main/java/com/zw/service/impl/ToEmailServiceImpl.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-mail/src/main/java/com/zw/handler/DemoMailHandler.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-task/task-quartz/src/main/java/com/zw/service/impl/QuartzServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-task/task-quartz/src/main/java/com/zw/service/impl/QuartzServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-task/task-quartz/src/main/java/com/zw/service/impl/QuartzServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-verifcode/src/main/java/com/zw/service/AuthenticationDetailService.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-exception-handler/src/main/java/com/zw/handler/DemoExceptionHandler.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-exception-handler/src/main/java/com/zw/handler/DemoExceptionHandler.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/controller/AuthController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/utils/JwtUtils.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/controller/MonitorController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/controller/MonitorController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/controller/MonitorController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/service/impl/MonitorService.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/handler/GlobalExceptionHandler.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-security/security-rbac-jwt/src/main/java/com/zw/handler/GlobalExceptionHandler.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-session/src/main/java/com/zw/interceptor/SessionInterceptor.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-session/src/main/java/com/zw/controller/PageController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-consumer-redis/src/main/java/com/zw/controller/RedisController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-consumer-redis/src/main/java/com/zw/controller/RedisController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-provider-redis/src/main/java/com/zw/service/RedisServiceImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-provider-redis/src/main/java/com/zw/service/RedisServiceImpl.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-mq/mq-kafka/src/main/java/com/zw/controller/KafkaController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-orm/orm-mybatis/src/test/java/com/zw/DemoApplicationTests.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-ladp/src/main/java/com/zw/service/impl/PersonServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-ladp/src/test/java/com/zw/DemoApplicationTests.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-ladp/src/main/java/com/zw/service/impl/PersonServiceImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-ladp/src/main/java/com/zw/service/impl/PersonServiceImpl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-ladp/src/test/java/com/zw/DemoApplicationTests.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-ladp/src/main/java/com/zw/service/impl/PersonServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-orm/orm-mybatis-plus-auto/src/test/java/com/zw/DemoApplicationTests.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-algorithm/src/alogrithm/ArrayTest.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="attributes" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

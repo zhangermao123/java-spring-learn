@@ -1,0 +1,13 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /demo
+
+spring:
+  dubbo:
+    application:
+     name: demo-dubbo-consumer-redis-zw
+     registry:
+      address: redis://localhost:6379
+     qosEnable: 33333
+     qosPort: true

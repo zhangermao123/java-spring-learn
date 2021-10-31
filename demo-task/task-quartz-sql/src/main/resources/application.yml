@@ -1,0 +1,64 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /demo
+
+spring:
+  datasource:
+       url: jdbc:mysql://10.2.6.220:3306/zwdb?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+       username: root
+       password: backend2020
+       driver-class-name: com.mysql.cj.jdbc.Driver
+       type: com.zaxxer.hikari.HikariDataSource
+#       initialization-mode: always
+#       continue-on-error: true
+#       schema:   #使用下面的sql语句
+#       - "classpath:db/tables_mysql.sql"
+       hikari:
+         minimum-idle: 5
+         connection-test-query: SELECT 1 FROM DUAL
+         maximum-pool-size: 20
+         auto-commit: true
+         idle-timeout: 30000
+         pool-name: SpringBootDemoHikariCP
+         max-lifetime: 60000
+         connection-timeout: 30000
+  quartz:
+      # 参见 org.springframework.boot.autoconfigure.quartz.QuartzProperties
+      job-store-type: jdbc
+      wait-for-jobs-to-complete-on-shutdown: true
+      scheduler-name: task-quartz-sql
+      properties:
+        org.quartz.threadPool.threadCount: 5
+        org.quartz.threadPool.threadPriority: 5
+        org.quartz.threadPool.threadsInheritContextClassLoaderOfInitializingThread: true
+        org.quartz.jobStore.misfireThreshold: 5000
+        org.quartz.jobStore.class: org.quartz.impl.jdbcjobstore.JobStoreTX
+        org.quartz.jobStore.driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+        # 在调度流程的第一步，也就是拉取待即将触发的triggers时，是上锁的状态，即不会同时存在多个线程拉取到相同的trigger的情况，也就避免的重复调度的危险。参考：https://segmentfault.com/a/1190000015492260
+        org.quartz.jobStore.acquireTriggersWithinLock: true
+  logging:
+    level:
+      com.zw: debug
+      com.zw.mapper: trace
+mybatis:
+  configuration:
+    # 开启下划线转驼峰(java代码匹配数据库表/列名词)
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*.xml #使用的resources/mappers 下面的xml
+  type-aliases-package: com.zw.pojo #使用的pojo路径
+
+mapper:
+  mappers:
+  - tk.mybatis.mapper.common.Mapper
+  not-empty: true
+  style: camelhump
+  wrap-keyword: "`{0}`"
+  safe-delete: true
+  safe-update: true
+  identity: MYSQL
+pagehelper: #mybatis 分页查询
+  auto-dialect: true
+  helper-dialect: mysql  #数据库
+  reasonable: true
+  params: count=countSql

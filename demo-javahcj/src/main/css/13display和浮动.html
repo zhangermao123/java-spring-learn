@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--  display 变块元素和行内元素
+      inline-block/block/none 变成行，变成列
+      float 左右浮动 把行内转为块元素
+      clear left,right,both,none 左右两侧不允许浮动/允许浮动
+      overflow hidden 自动溢出 隐藏-->
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+        #father{
+            width: 600px;
+            height: 600px;
+            border:1px #000 solid;
+        }
+        .div2{
+            float: left;
+        }
+        span{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            float: right;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="father">
+<div class="div2">div块元素</div>
+<span>行内元素</span>
+</div>
+</body>
+</html>

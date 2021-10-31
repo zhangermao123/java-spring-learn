@@ -1,0 +1,16 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /demo
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+  freemarker:
+      suffix: .ftl
+      cache: false
+      charset: UTF-8
+

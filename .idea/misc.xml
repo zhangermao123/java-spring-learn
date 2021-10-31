@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-admin/admin-client/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-admin/admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-logback/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-log-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mybatis-plus-auto/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-exception-handler/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-template/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-orm/orm-jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-orm/orm-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-orm/orm-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-orm/orm-mybatis-plus-auto/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-orm/orm-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-task/task-quick/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-task/task-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-task/task-quartz-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-swagger/demo-swagger-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-swagger/swagger-beauty/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security/security-login-1/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security/security-login-2/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security/security-with-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security/security-rememberme/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security/security-verifcode/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security/security-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security/security-rbac-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-session/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-provider-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-zookeeper/dubbo-consumer-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-zookeeper/redission-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-zookeeper/redisson-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mq/mq-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mq/mq-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-task/async/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-neo4j/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-ladp/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-https/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-limiting/limiting-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-limiting/limiting-guava/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-ureport2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

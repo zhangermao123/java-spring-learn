@@ -1,0 +1,11 @@
+server:
+  # 浏览器默认端口 和 8080 类似
+  port: 8432
+  ssl:
+    # 证书路径
+    key-store: classpath:server.keystore
+    key-alias: tomocat
+    enabled: true
+    key-store-type: JKS
+    #与申请时输入一致
+    key-store-password: demohttps

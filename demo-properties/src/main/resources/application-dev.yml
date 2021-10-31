@@ -1,0 +1,8 @@
+application:
+  name: dev @artifactId@
+  version: dev @version@
+developer-property:
+  name: dev zhangwei
+  website: dev https//localhost:${server.prot}
+  qq: dev ${random.value}
+  phone-number: dev ${random.uuid}

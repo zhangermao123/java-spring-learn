@@ -1,0 +1,24 @@
+server:
+  port: 8761
+  servlet:
+      context-path: /demo
+
+spring:
+  cloud:
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:9100
+  application:
+      name: limiting-sentinel
+#spring :
+#  application:
+#    name: limiting-sentinel
+#  cloud:
+#    #连接sentinel的dashboard
+#    sentinel:
+#      port: 8764
+#      transport: localhost:9100
+##    eager: true
+
+

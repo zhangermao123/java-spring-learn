@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 属性选择器-->
+    <style>
+        .demo a{
+            float: left;
+            display: block;
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            background: green;
+            text-align: center;
+            color: grey;
+            text-decoration: none;
+            margin-right: 5px;
+            font: bold 20px/50px Arial;
+        }
+        /*属性选择器 a[正则匹配]{}*/
+        /*存在id元素*/
+        a[id]{
+            background: yellow;
+        }
+        /*id=lastTwo属性*/
+        a[id=lastTwo]{
+            background: red;
+        }
+        /*class中存在last *=包含正则的表达*/
+        a[class*="last"]{
+            background: green;
+        }
+        /*前面包含^=*/
+        a[href^=image]{
+            background: yellow;
+        }
+
+        /*后面包含$=*/
+        a[href$=pdf]{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p class="demo">
+        <a href="" id="first" class="links item active">1</a>
+        <a href="a.pdf" class="links item ">2</a>
+        <a href="b.pdf" class="links item ">3</a>
+        <a href="image.txt" id="lastTwo" class="links item active">4</a>
+        <a href="" id="last" class="links item last">5</a>
+    </p>
+</body>
+</html>

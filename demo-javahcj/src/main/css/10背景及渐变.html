@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- background-repeat 向那个方向平铺，默认x,y都平铺
+     linear-gradient 线性渐变-->
+    <style>
+        div{
+            width: 1000px;
+            height: 700px;
+            border: 1px solid red;
+            background-image: url("../resources/image/lczd.jpeg")
+        }
+        .div1{
+            background-repeat: repeat-x;
+        }
+        .div2{
+            background-repeat: repeat-y;
+        }
+        .div3{
+            background-repeat: no-repeat;
+        }
+        .div4{
+            background-image: linear-gradient(115deg,#FFFFFF 0%,#6284ff 50%,#FF0000 100%)
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+</body>
+</html>

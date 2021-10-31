@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.zw</groupId>
+    <artifactId>spring-boot-zw</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>spring-boot-learn-zw</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <spring.boot.version>2.1.0.RELEASE</spring.boot.version>
+        <alibaba.cloud.version>2.1.0.RELEASE</alibaba.cloud.version>
+        <mysql.version>8.0.21</mysql.version>
+        <hutoll.version>5.4.5</hutoll.version>
+        <user.agent.version>1.20</user.agent.version>
+        <mybatis.version>1.3.2</mybatis.version>
+        <mybatis.plus.version>3.2.0</mybatis.plus.version>
+        <guava.version>29.0-jre</guava.version>
+        <mybatis.mapper.version>2.0.4</mybatis.mapper.version>
+        <mybatis.pagehelper.version>1.2.9</mybatis.pagehelper.version>
+        <jasypt.version>2.1.1</jasypt.version>
+        <swagger.version>2.9.2</swagger.version>
+        <battcn.swagger.version>2.1.2-RELEASE</battcn.swagger.version>
+        <kaptcha.version>2.3.2</kaptcha.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <dubbo.starter.version>2.0.0</dubbo.starter.version>
+        <zkclient.version>0.10</zkclient.version>
+        <redission.version>3.10.2</redission.version>
+    </properties>
+
+    <modules>
+        <!--  hello World -->
+        <module>demo-hello</module>
+        <!--  配置获取 -->
+        <module>demo-properties</module>
+        <!--  获取spring boot项目的启动和运行状态 -->
+        <module>demo-actuator</module>
+        <!--  admin 监控管理 spring boot项目 分成server 和client -->
+        <module>demo-admin</module>
+        <!--  spring boot log设置-->
+        <module>demo-logback</module>
+        <!--  切面分析Aspect spring boot项目web请求 log-->
+        <module>demo-log-aop</module>
+        <!--  spring boot项目 web 统一数据返回和统一错误处理-->
+        <module>demo-exception-handler</module>
+        <!--  spring boot 使用的前端模板主要使用thymeleaf和freemarker-->
+        <module>demo-template</module>
+        <!--  spring boot 项目中常用数据库 主要是mybatis，mybatis-plus和BeetSql-->
+        <module>demo-orm</module>
+        <!-- spring boot 项目上传下载功能-->
+        <module>demo-upload</module>
+        <!-- spring boot redis缓存使用-->
+        <module>demo-redis</module>
+        <!-- spring boot 邮件-->
+        <module>demo-mail</module>
+        <!-- spring boot 定时任务/异步实现-->
+        <module>demo-task</module>
+        <!-- spring boot 代码注释-->
+        <module>demo-swagger</module>
+        <!-- spring boot 登录验证token-->
+        <module>demo-security</module>
+        <!-- spring boot 通过redis实现session共享-->
+        <module>demo-session</module>
+        <!-- spring boot dubbo和zookeeper的使用-->
+        <module>demo-dubbo-zookeeper</module>
+        <!-- spring boot 消息队列-->
+        <module>demo-mq</module>
+        <!-- spring boot 消息推送-->
+        <module>demo-websocket</module>
+        <!-- spring boot 打包成war部署tomcat服务器-->
+        <module>demo-war</module>
+        <!-- spring boot 限流保护-->
+        <module>demo-limiting</module>
+        <module>demo-javahcj</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--  spring boot 依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- alibaba sentinel依赖 parent spring-cloud-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${alibaba.cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--  hutool 工具,一个Java基础工具类，对文件、流、加密解密、转码、正则、线程、XML,Json解析等JDK方法进行封装，组成各种Util工具类 -->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutoll.version}</version>
+            </dependency>
+            <!-- UserAgent 工具 用来解析浏览器中的 User-Agent 字符串  -->
+            <dependency>
+                <groupId>eu.bitwalker</groupId>
+                <artifactId>UserAgentUtils</artifactId>
+                <version>${user.agent.version}</version>
+            </dependency>
+            <!--  mysql -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <!--  mybatis-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!-- mybatis-plus   -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.plus.version}</version>
+            </dependency>
+            <!-- guava工具类 -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <!-- 通用Mapper -->
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring-boot-starter</artifactId>
+                <version>${mybatis.mapper.version}</version>
+            </dependency>
+            <!-- mybatis分页助手 -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${mybatis.pagehelper.version}</version>
+            </dependency>
+            <!-- jasypt配置文件加解密 -->
+            <dependency>
+                <groupId>com.github.ulisesbocchio</groupId>
+                <artifactId>jasypt-spring-boot-starter</artifactId>
+                <version>${jasypt.version}</version>
+            </dependency>
+            <!-- 代码注释 swagger2-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <!-- 代码注释 swagger-ui -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <!-- 自定义第三方ui swagger-->
+            <dependency>
+                <groupId>com.battcn</groupId>
+                <artifactId>swagger-spring-boot-starter</artifactId>
+                <version>${battcn.swagger.version}</version>
+            </dependency>
+            <!-- 图片二维码-->
+            <dependency>
+                <groupId>com.github.penggle</groupId>
+                <artifactId>kaptcha</artifactId>
+                <version>${kaptcha.version}</version>
+            </dependency>
+            <!-- jwt使用-->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <!-- dubbo注册分发中心 -->
+            <dependency>
+                <groupId>com.alibaba.spring.boot</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.starter.version}</version>
+            </dependency>
+
+            <!--zookeeper客户端 -->
+            <dependency>
+                <groupId>com.101tec</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zkclient.version}</version>
+            </dependency>
+            <!-- redisson分布锁-->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-data-21</artifactId>
+                <version>${redission.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring.boot.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

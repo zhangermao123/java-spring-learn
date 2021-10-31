@@ -1,0 +1,15 @@
+server:
+  port: 8763
+  servlet:
+    context-path: /demo
+
+spring:
+  dubbo:
+    application:
+      name: spring-dubbo-provider-redis-zw
+    registry:
+       address: redis://localhost:6379
+    protocol:
+      name: dubbo
+      port: 12345
+

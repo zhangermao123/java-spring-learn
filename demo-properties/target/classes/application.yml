@@ -1,0 +1,8 @@
+server:
+  prot: 8761
+  servlet:
+    context-path: /demo
+
+spring:
+  profiles:
+    active: dev

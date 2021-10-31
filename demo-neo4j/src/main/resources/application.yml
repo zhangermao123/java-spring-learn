@@ -1,0 +1,10 @@
+server:
+  port: 8761
+spring:
+  data:
+      neo4j:
+        uri: bolt://10.2.6.220
+        username: neo4j
+        password: backend2020
+        open-in-view: false
+

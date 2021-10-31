@@ -1,0 +1,244 @@
+2021-05-21 16:08:51.642  INFO 32050 --- [main] com.zw.DemoLogbackApplication            : Starting DemoLogbackApplication on zhangweideMacBook-Pro.local with PID 32050 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-logback/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 16:08:51.651  INFO 32050 --- [main] com.zw.DemoLogbackApplication            : No active profile set, falling back to default profiles: default
+2021-05-21 16:08:54.440  INFO 32050 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-05-21 16:08:54.475  INFO 32050 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 16:08:54.475  INFO 32050 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 16:08:54.508  INFO 32050 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 16:08:54.627  INFO 32050 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-21 16:08:54.628  INFO 32050 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2839 ms
+2021-05-21 16:08:54.666  INFO 32050 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 16:08:54.670  INFO 32050 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 16:08:54.671  INFO 32050 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 16:08:54.674  INFO 32050 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 16:08:54.675  INFO 32050 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 16:08:54.927  INFO 32050 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 16:08:55.260  INFO 32050 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-05-21 16:08:55.264  INFO 32050 --- [main] com.zw.DemoLogbackApplication            : Started DemoLogbackApplication in 5.077 seconds (JVM running for 5.976)
+2021-05-21 16:08:55.267  INFO 32050 --- [main] com.zw.DemoLogbackApplication            : Spring boot启动初始化了 124 个 Bean
+2021-05-21 16:08:55.267  WARN 32050 --- [main] com.zw.DemoLogbackApplication            : Spring boot启动初始化了 124 个 Bean
+2021-05-21 16:53:16.048  INFO 32050 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:46:22.656  INFO 32397 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32397 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 17:46:22.663  INFO 32397 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 17:46:25.998  INFO 32397 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-05-21 17:46:26.022  INFO 32397 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 17:46:26.022  INFO 32397 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 17:46:26.033  INFO 32397 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 17:46:26.133  INFO 32397 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-21 17:46:26.133  INFO 32397 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3228 ms
+2021-05-21 17:46:26.263  INFO 32397 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 17:46:26.267  INFO 32397 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 17:46:26.267  INFO 32397 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 17:46:26.267  INFO 32397 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 17:46:26.268  INFO 32397 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 17:46:26.745  INFO 32397 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:46:27.202  INFO 32397 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-05-21 17:46:27.208  INFO 32397 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 5.951 seconds (JVM running for 6.764)
+2021-05-21 17:46:45.432  INFO 32397 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 17:46:45.464  INFO 32397 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 17:46:45.505  INFO 32397 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
+2021-05-21 17:48:20.209  INFO 32397 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:48:57.186  INFO 32415 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32415 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 17:48:57.195  INFO 32415 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 17:48:59.519  INFO 32415 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-05-21 17:48:59.602  INFO 32415 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 17:48:59.603  INFO 32415 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 17:48:59.617  INFO 32415 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 17:48:59.947  INFO 32415 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-21 17:48:59.948  INFO 32415 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2639 ms
+2021-05-21 17:49:00.009  INFO 32415 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 17:49:00.016  INFO 32415 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 17:49:00.018  INFO 32415 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 17:49:00.020  INFO 32415 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 17:49:00.021  INFO 32415 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 17:49:01.040  INFO 32415 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:49:01.631  INFO 32415 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-05-21 17:49:01.641  INFO 32415 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 5.44 seconds (JVM running for 8.369)
+2021-05-21 17:49:13.369  INFO 32415 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 17:49:13.371  INFO 32415 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 17:49:13.397  INFO 32415 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2021-05-21 17:49:42.268  INFO 32415 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:52:02.722  INFO 32422 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32422 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 17:52:02.730  INFO 32422 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 17:52:05.425  INFO 32422 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-05-21 17:52:05.462  INFO 32422 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 17:52:05.463  INFO 32422 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 17:52:05.479  INFO 32422 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 17:52:05.770  INFO 32422 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-21 17:52:05.772  INFO 32422 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2776 ms
+2021-05-21 17:52:05.841  INFO 32422 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 17:52:05.850  INFO 32422 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 17:52:05.850  INFO 32422 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 17:52:05.851  INFO 32422 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 17:52:05.851  INFO 32422 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 17:52:07.054  INFO 32422 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:52:07.940  INFO 32422 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-05-21 17:52:07.953  INFO 32422 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 6.984 seconds (JVM running for 8.537)
+2021-05-21 17:52:19.445  INFO 32422 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 17:52:19.449  INFO 32422 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 17:52:19.475  INFO 32422 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2021-05-21 17:52:51.329  INFO 32422 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:55:58.129  INFO 32446 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32446 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 17:55:58.136  INFO 32446 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 17:56:01.251  INFO 32446 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-05-21 17:56:01.278  INFO 32446 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 17:56:01.279  INFO 32446 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 17:56:01.292  INFO 32446 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 17:56:01.616  INFO 32446 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-21 17:56:01.616  INFO 32446 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3191 ms
+2021-05-21 17:56:01.659  INFO 32446 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 17:56:01.664  INFO 32446 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 17:56:01.664  INFO 32446 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 17:56:01.665  INFO 32446 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 17:56:01.665  INFO 32446 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 17:56:02.294  INFO 32446 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:56:02.759  INFO 32446 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-05-21 17:56:02.767  INFO 32446 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 7.025 seconds (JVM running for 8.766)
+2021-05-21 17:56:09.104  INFO 32446 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 17:56:09.104  INFO 32446 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 17:56:09.126  INFO 32446 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2021-05-21 17:57:01.047  INFO 32446 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:57:34.501  INFO 32455 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32455 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 17:57:34.506  INFO 32455 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 17:57:36.609  INFO 32455 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-05-21 17:57:36.637  INFO 32455 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 17:57:36.638  INFO 32455 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 17:57:36.650  INFO 32455 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 17:57:36.771  INFO 32455 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-21 17:57:36.772  INFO 32455 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2061 ms
+2021-05-21 17:57:36.800  INFO 32455 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 17:57:36.805  INFO 32455 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 17:57:36.808  INFO 32455 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 17:57:36.808  INFO 32455 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 17:57:36.808  INFO 32455 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 17:57:37.077  INFO 32455 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 17:57:37.467  INFO 32455 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-05-21 17:57:37.474  INFO 32455 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 4.176 seconds (JVM running for 5.351)
+2021-05-21 17:57:41.425  INFO 32455 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 17:57:41.425  INFO 32455 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 17:57:41.434  INFO 32455 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-05-21 17:58:16.437  INFO 32455 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:02:26.132  INFO 32499 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32499 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 18:02:26.189  INFO 32499 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 18:02:28.723  INFO 32499 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-05-21 18:02:28.746  INFO 32499 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 18:02:28.747  INFO 32499 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 18:02:28.756  INFO 32499 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 18:02:28.851  INFO 32499 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-21 18:02:28.852  INFO 32499 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2410 ms
+2021-05-21 18:02:28.878  INFO 32499 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 18:02:28.882  INFO 32499 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 18:02:28.882  INFO 32499 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 18:02:28.883  INFO 32499 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 18:02:28.883  INFO 32499 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 18:02:29.184  INFO 32499 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:02:29.648  INFO 32499 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-05-21 18:02:29.653  INFO 32499 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 5.351 seconds (JVM running for 6.412)
+2021-05-21 18:02:30.390  INFO 32499 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 18:02:30.390  INFO 32499 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 18:02:30.398  INFO 32499 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-05-21 18:05:26.244  INFO 32499 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:07:17.476  INFO 32592 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32592 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 18:07:17.488  INFO 32592 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 18:07:19.649  INFO 32592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+2021-05-21 18:07:19.674  INFO 32592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 18:07:19.675  INFO 32592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 18:07:19.686  INFO 32592 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 18:07:19.819  INFO 32592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-05-21 18:07:19.819  INFO 32592 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2203 ms
+2021-05-21 18:07:19.891  INFO 32592 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 18:07:19.900  INFO 32592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 18:07:19.901  INFO 32592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 18:07:19.905  INFO 32592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 18:07:19.905  INFO 32592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 18:07:20.269  INFO 32592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:07:20.615  INFO 32592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path '/demo'
+2021-05-21 18:07:20.619  INFO 32592 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 4.401 seconds (JVM running for 5.978)
+2021-05-21 18:07:27.692  INFO 32592 --- [http-nio-8762-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 18:07:27.693  INFO 32592 --- [http-nio-8762-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 18:07:27.702  INFO 32592 --- [http-nio-8762-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-05-21 18:08:37.677  INFO 32592 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:09:33.274  INFO 32599 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32599 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 18:09:33.278  INFO 32599 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 18:09:35.106  INFO 32599 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+2021-05-21 18:09:35.127  INFO 32599 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 18:09:35.127  INFO 32599 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 18:09:35.136  INFO 32599 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 18:09:35.249  INFO 32599 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-05-21 18:09:35.250  INFO 32599 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1785 ms
+2021-05-21 18:09:35.274  INFO 32599 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 18:09:35.278  INFO 32599 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 18:09:35.278  INFO 32599 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 18:09:35.278  INFO 32599 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 18:09:35.278  INFO 32599 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 18:09:35.537  INFO 32599 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:09:35.884  INFO 32599 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path '/demo'
+2021-05-21 18:09:35.888  INFO 32599 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 3.835 seconds (JVM running for 5.196)
+2021-05-21 18:09:40.202  INFO 32599 --- [http-nio-8762-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 18:09:40.203  INFO 32599 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 18:09:40.212  INFO 32599 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-05-21 18:09:54.952  INFO 32599 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:10:01.803  INFO 32609 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32609 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 18:10:01.807  INFO 32609 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 18:10:04.080  INFO 32609 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+2021-05-21 18:10:04.136  INFO 32609 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 18:10:04.136  INFO 32609 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 18:10:04.155  INFO 32609 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 18:10:04.299  INFO 32609 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-05-21 18:10:04.300  INFO 32609 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2407 ms
+2021-05-21 18:10:04.352  INFO 32609 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 18:10:04.358  INFO 32609 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 18:10:04.359  INFO 32609 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 18:10:04.362  INFO 32609 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 18:10:04.362  INFO 32609 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 18:10:04.593  INFO 32609 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:10:04.935  INFO 32609 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path '/demo'
+2021-05-21 18:10:04.938  INFO 32609 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 4.015 seconds (JVM running for 4.677)
+2021-05-21 18:10:22.652  INFO 32609 --- [http-nio-8762-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 18:10:22.653  INFO 32609 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 18:10:22.666  INFO 32609 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-05-21 18:11:13.115  INFO 32609 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:11:34.756  INFO 32623 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32623 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 18:11:34.759  INFO 32623 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 18:11:37.242  INFO 32623 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+2021-05-21 18:11:37.297  INFO 32623 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 18:11:37.298  INFO 32623 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 18:11:37.318  INFO 32623 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 18:11:37.528  INFO 32623 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-05-21 18:11:37.529  INFO 32623 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2638 ms
+2021-05-21 18:11:37.580  INFO 32623 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 18:11:37.584  INFO 32623 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 18:11:37.584  INFO 32623 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 18:11:37.585  INFO 32623 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 18:11:37.585  INFO 32623 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 18:11:37.854  INFO 32623 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:11:38.278  INFO 32623 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path '/demo'
+2021-05-21 18:11:38.286  INFO 32623 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 4.757 seconds (JVM running for 5.717)
+2021-05-21 18:11:50.711  INFO 32623 --- [http-nio-8762-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 18:11:50.712  INFO 32623 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 18:11:50.719  INFO 32623 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-05-21 18:12:07.233  INFO 32623 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:12:46.860  INFO 32629 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 32629 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-05-21 18:12:46.886  INFO 32629 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-05-21 18:12:49.249  INFO 32629 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+2021-05-21 18:12:49.279  INFO 32629 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-21 18:12:49.280  INFO 32629 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-05-21 18:12:49.292  INFO 32629 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-05-21 18:12:49.407  INFO 32629 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-05-21 18:12:49.408  INFO 32629 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2418 ms
+2021-05-21 18:12:49.457  INFO 32629 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-05-21 18:12:49.465  INFO 32629 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-05-21 18:12:49.465  INFO 32629 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-05-21 18:12:49.466  INFO 32629 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-05-21 18:12:49.466  INFO 32629 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-05-21 18:12:50.067  INFO 32629 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:12:50.395  INFO 32629 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path '/demo'
+2021-05-21 18:12:50.399  INFO 32629 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 4.946 seconds (JVM running for 6.074)
+2021-05-21 18:13:06.482  INFO 32629 --- [http-nio-8762-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-21 18:13:06.484  INFO 32629 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-21 18:13:06.513  INFO 32629 --- [http-nio-8762-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2021-05-21 18:13:06.794  INFO 32629 --- [http-nio-8762-exec-1] com.zw.aspectj.WebLogAspect              : Request Log Info : {"classMethod":"com.zw.controller.AopLogController.getAopTest","os":"MAC_OS_X","ip":"0:0:0:0:0:0:0:1","requestParams":{"who":"zw"},"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","httpMethod":"GET","threadName":"http-nio-8762-exec-1","url":"http://localhost:8762/demo/getTest","threadId":"17","result":{"who":"zw"},"browser":"CHROME9"}
+2021-05-21 18:13:06.795  INFO 32629 --- [http-nio-8762-exec-1] com.zw.aspectj.WebLogAspect              : 【请求耗时】：210ms
+2021-05-21 18:13:18.269  INFO 32629 --- [http-nio-8762-exec-2] com.zw.aspectj.WebLogAspect              : Request Log Info : {"classMethod":"com.zw.controller.AopLogController.getAopTest","os":"MAC_OS_X","ip":"0:0:0:0:0:0:0:1","requestParams":{"who":"zw"},"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","httpMethod":"GET","threadName":"http-nio-8762-exec-2","url":"http://localhost:8762/demo/getTest","threadId":"18","result":{"who":"zw"},"browser":"CHROME9"}
+2021-05-21 18:13:18.269  INFO 32629 --- [http-nio-8762-exec-2] com.zw.aspectj.WebLogAspect              : 【请求耗时】：4ms
+2021-05-21 18:13:23.797  INFO 32629 --- [http-nio-8762-exec-3] com.zw.aspectj.WebLogAspect              : Request Log Info : {"classMethod":"com.zw.controller.AopLogController.getAopTest","os":"MAC_OS_X","ip":"0:0:0:0:0:0:0:1","requestParams":{"who":"zw"},"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","httpMethod":"GET","threadName":"http-nio-8762-exec-3","url":"http://localhost:8762/demo/getTest","threadId":"19","result":{"who":"zw"},"browser":"CHROME9"}
+2021-05-21 18:13:23.797  INFO 32629 --- [http-nio-8762-exec-3] com.zw.aspectj.WebLogAspect              : 【请求耗时】：1ms

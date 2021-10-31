@@ -1,0 +1,8 @@
+application:
+  name: prod demo-properties
+  version: prod 0.0.1-SNAPSHOT
+developer-property:
+  name: prod zhangwei
+  website: prod https//localhost:${server.port}
+  qq: prod ${random.int(10)}
+  phone-number: prod ${random.int(11)}

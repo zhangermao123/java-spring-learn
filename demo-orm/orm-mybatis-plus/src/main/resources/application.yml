@@ -1,0 +1,10 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /demo
+
+spring:
+  application:
+    name: rom-mybatis-plus
+  profiles:
+    active: dev

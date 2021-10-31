@@ -1,0 +1,8 @@
+server:
+  port: 8761
+#同SecurityConfig 设置
+#spring:
+#  security:
+#    user:
+#      name: zhangwei
+#      password: 123456

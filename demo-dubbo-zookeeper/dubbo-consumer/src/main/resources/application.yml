@@ -1,0 +1,11 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /demo
+
+spring:
+  dubbo:
+    application:
+      name: demo-dubbo-consumer-zw
+      registry: zookeeper://10.2.6.220:2181
+

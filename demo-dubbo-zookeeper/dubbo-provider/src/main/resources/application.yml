@@ -1,0 +1,15 @@
+server:
+  port: 8763
+  servlet:
+    context-path: /demo
+
+spring:
+  dubbo:
+    application:
+      name: spring-boot-demo-dubbo-provider-zw
+      registry:
+       protocal: zookeeper
+       address: zookeeper://10.2.6.220:2181
+
+
+

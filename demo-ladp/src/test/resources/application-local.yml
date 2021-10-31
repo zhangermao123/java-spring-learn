@@ -1,0 +1,9 @@
+spring:
+  ldap:
+    urls: ldap://10.2.6.220:389
+    base: dc=example,dc=org
+    username: cn=admin,dc=example,dc=org
+    password: admin
+#    embedded:
+#    #添加基础数据
+#      ldif: ldap-server.ldif

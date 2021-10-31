@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        /*后代选择器*/
+        /*body p{
+            background: red;
+        }*/
+        /*子选择器 一代，儿子*/
+        /*body>p{
+            background: red;
+        }*/
+        /*相邻兄弟选择器 同辈只有一个，向下*/
+        /*.active + p{
+            background: red;
+        }*/
+        /*通用选择器 向下同一层级的选择器，不包括自己*/
+        .active~p{
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+<p class="active">p1</p>
+<p>p2</p>
+<p>p3</p>
+<ul>
+    <li><p>p4</p></li>
+    <li><p>p5</p></li>
+    <li><p>p6</p></li>
+</ul>
+</body>
+</html>

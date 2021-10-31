@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="swagger-beauty" />
+        <module name="security-verifcode" />
+        <module name="security-login-2" />
+        <module name="security-login-1" />
+        <module name="demo-war" />
+        <module name="demo-websocket" />
+        <module name="orm-jpa" />
+        <module name="dubbo-common" />
+        <module name="demo-neo4j" />
+        <module name="demo-template" />
+        <module name="demo-https" />
+        <module name="security-jwt" />
+        <module name="security-rbac-jwt" />
+        <module name="dubbo-consumer-redis" />
+        <module name="demo-javahcj" />
+        <module name="demo-redis" />
+        <module name="orm-mybatis-plus-auto" />
+        <module name="admin-server" />
+        <module name="demo-upload" />
+        <module name="security-rememberme" />
+        <module name="limiting-guava" />
+        <module name="demo-ureport2" />
+        <module name="admin-client" />
+        <module name="orm-mybatis-plus" />
+        <module name="security-with-jpa" />
+        <module name="demo-ladp" />
+        <module name="demo-logback" />
+        <module name="demo-mail" />
+        <module name="limiting-sentinel" />
+        <module name="demo-actuator" />
+        <module name="redisson-redis" />
+        <module name="task-quartz" />
+        <module name="demo-session" />
+        <module name="demo-properties" />
+        <module name="orm-mybatis" />
+        <module name="demo-mongodb" />
+        <module name="dubbo-provider-redis" />
+        <module name="mq-rabbitmq" />
+        <module name="demo-exception-handler" />
+        <module name="orm-jdbctemplate" />
+        <module name="mq-kafka" />
+        <module name="task-quartz-sql" />
+        <module name="async" />
+        <module name="task-quick" />
+        <module name="dubbo-provider" />
+        <module name="demo-hello" />
+        <module name="demo-log-aop" />
+        <module name="swagger-ui" />
+        <module name="dubbo-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="orm-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-client" options="" />
+      <module name="admin-server" options="" />
+      <module name="async" options="" />
+      <module name="dubbo-consumer" options="" />
+      <module name="dubbo-consumer-redis" options="" />
+      <module name="dubbo-provider" options="" />
+      <module name="dubbo-provider-redis" options="" />
+      <module name="limiting-guava" options="" />
+      <module name="limiting-sentinel" options="" />
+      <module name="mq-kafka" options="" />
+      <module name="orm-jdbctemplate" options="" />
+      <module name="orm-jpa" options="" />
+      <module name="orm-mybatis" options="" />
+      <module name="orm-test" options="" />
+      <module name="redisson-redis" options="" />
+      <module name="security-jwt" options="" />
+      <module name="security-login-1" options="" />
+      <module name="security-login-2" options="" />
+      <module name="security-rbac-jwt" options="" />
+      <module name="security-rememberme" options="" />
+      <module name="security-verifcode" options="" />
+      <module name="swagger-beauty" options="" />
+      <module name="swagger-ui" options="" />
+      <module name="task-quartz" options="" />
+      <module name="task-quartz-sql" options="" />
+    </option>
+  </component>
+</project>

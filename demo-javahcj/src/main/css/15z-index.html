@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- z-index 图层 从0-xx 0最小 -->
+    <style>
+        #content{
+            width: 270px;
+            padding: 0;
+            margin: 0px;
+            overflow: hidden;
+            font-size: 12px;
+            line-height:25px;
+            border: 1px #000 solid;
+        }
+        ul,li{
+            padding: 0px;
+            margin: 0px;
+            line-style: none;
+        }
+
+        /*父级相对定位*/
+        #content ul{
+            position: relative;
+        }
+        .tipText ,.tipBg{
+            position: absolute;
+            width: 270px;
+            height: 25px;
+            top: 339px;
+        }
+        .tipText{
+            color: white;
+            z-index: 1;
+        }
+        .tipBg{
+            background-color: pink;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <ul>
+        <li><img src="../resources/image/lczd.jpeg" alt=""></li>
+        <li class="tipText">浪潮之巅，互联网浪潮</li>
+        <li class="tipBg"></li>
+        <li>时间: 2099-01-01</li>
+        <li>地点: 月球一号</li>
+    </ul>
+</div>
+</body>
+</html>

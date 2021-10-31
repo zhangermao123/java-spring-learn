@@ -1,0 +1,25 @@
+2021-06-23 14:55:40.676  INFO 3869 --- [main] com.zw.DemoLogAopApplication             : Starting DemoLogAopApplication on zhangweideMacBook-Pro.local with PID 3869 (/Users/zhangwei/Downloads/java/learntest/spring-boot-zw/demo-log-aop/target/classes started by zhangwei in /Users/zhangwei/Downloads/java/learntest/spring-boot-zw)
+2021-06-23 14:55:40.684  INFO 3869 --- [main] com.zw.DemoLogAopApplication             : No active profile set, falling back to default profiles: default
+2021-06-23 14:55:44.216  INFO 3869 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+2021-06-23 14:55:44.247  INFO 3869 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-23 14:55:44.247  INFO 3869 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-06-23 14:55:44.270  INFO 3869 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangwei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-06-23 14:55:44.417  INFO 3869 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2021-06-23 14:55:44.417  INFO 3869 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3532 ms
+2021-06-23 14:55:44.556  INFO 3869 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-06-23 14:55:44.561  INFO 3869 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-06-23 14:55:44.561  INFO 3869 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-06-23 14:55:44.562  INFO 3869 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-06-23 14:55:44.562  INFO 3869 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-06-23 14:55:45.042  INFO 3869 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-23 14:55:45.792  INFO 3869 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path '/demo'
+2021-06-23 14:55:45.800  INFO 3869 --- [main] com.zw.DemoLogAopApplication             : Started DemoLogAopApplication in 6.292 seconds (JVM running for 7.188)
+2021-06-23 14:56:37.449  INFO 3869 --- [http-nio-8762-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-23 14:56:37.449  INFO 3869 --- [http-nio-8762-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-23 14:56:37.481  INFO 3869 --- [http-nio-8762-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2021-06-23 14:56:37.645  INFO 3869 --- [http-nio-8762-exec-3] com.zw.aspectj.WebLogAspect              : Request Log Info : {"classMethod":"com.zw.controller.AopLogController.getAopTest","os":"MAC_OS_X","ip":"0:0:0:0:0:0:0:1","requestParams":{},"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36","httpMethod":"GET","threadName":"http-nio-8762-exec-3","url":"http://localhost:8762/demo/getTest","threadId":"19","result":{"who":"me"},"browser":"CHROME9"}
+2021-06-23 14:56:37.646  INFO 3869 --- [http-nio-8762-exec-3] com.zw.aspectj.WebLogAspect              : 【请求耗时】：100ms
+2021-06-23 14:58:34.226  INFO 3869 --- [http-nio-8762-exec-7] com.zw.controller.AopLogController       : {"usernameOrEmailOrPhone":"user","password":"12"}
+2021-06-23 14:58:34.231  INFO 3869 --- [http-nio-8762-exec-7] com.zw.aspectj.WebLogAspect              : Request Log Info : {"classMethod":"com.zw.controller.AopLogController.postAopTest","os":"UNKNOWN","ip":"0:0:0:0:0:0:0:1","requestParams":{"map":{"usernameOrEmailOrPhone":"user","password":"12"}},"userAgent":"PostmanRuntime/7.26.8","httpMethod":"POST","threadName":"http-nio-8762-exec-7","url":"http://localhost:8762/demo/postTest","threadId":"23","result":{"json":{"usernameOrEmailOrPhone":"user","password":"12"}},"browser":"UNKNOWN"}
+2021-06-23 14:58:34.231  INFO 3869 --- [http-nio-8762-exec-7] com.zw.aspectj.WebLogAspect              : 【请求耗时】：6ms
+2021-06-23 15:00:24.207  INFO 3869 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

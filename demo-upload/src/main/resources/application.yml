@@ -1,0 +1,11 @@
+server:
+  port: 8761
+servlet:
+  multipart:
+    enable: true
+    file-size-threshold: 2KB
+    max-file-size: 200MB
+    max-request-size: 215MB
+
+file:
+  upload-dir: /Users/zhangwei/Downloads/develop_dir/down
