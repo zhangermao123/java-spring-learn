@@ -15,4 +15,5 @@ public interface Bank {
      * @return 账户id
      */
     String openAccount(String companyId);
+
 }

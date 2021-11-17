@@ -11,7 +11,6 @@ import design.factory.Factory_WordFactory;
  * @date 2021-07-16
  */
 public interface AbstractFactory {
-
     /**
      * TODD
      * @return

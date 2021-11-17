@@ -54,7 +54,6 @@ public class LinkTest {
     class MyLinkList{
         int size;
         ListNode listNode;
-
         public MyLinkList(){
             size = 0;
             listNode = new ListNode(0);

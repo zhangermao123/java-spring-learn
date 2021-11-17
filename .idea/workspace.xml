@@ -7,7 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d057622-9ca6-447e-b446-2daf439d1acd" name="Default Changelist" comment="" />
+    <list default="true" id="1d057622-9ca6-447e-b446-2daf439d1acd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/demo-algorithm/src/alogrithm/AlgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-algorithm/src/alogrithm/AlgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-algorithm/src/alogrithm/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-algorithm/src/alogrithm/ArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-algorithm/src/alogrithm/LinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-algorithm/src/alogrithm/LinkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-algorithm/src/design/inter/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-algorithm/src/design/inter/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-algorithm/src/design/inter/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-algorithm/src/design/inter/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-algorithm/src/design/inter/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-algorithm/src/design/inter/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/AlgTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/AlgTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/LinkTest$MyLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/LinkTest$MyLinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/LinkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/LinkTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/test0728/ArrayTest$MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/test0728/ArrayTest$MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/test0728/ArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo-algorithm/alogrithm/test0728/ArrayTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +78,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.123470545" />
     <property name="project.structure.side.proportion" value="0.24133334" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../spring-boot-demo/demo-actuator/src/main/resources/application.yml" />
   </component>
   <component name="RecentsManager">
@@ -100,16 +112,9 @@
       <recent name="com.zw.handler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayTest">
+  <component name="RunManager" selected="Application.DeadLockSample">
     <configuration name="AlgTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alogrithm.AlgTest" />
-      <module name="demo-algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlgorithmUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlgorithmUtils" />
       <module name="demo-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,9 +127,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUploadApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zw.DemoUploadApplication" />
-      <module name="demo-upload" />
+    <configuration name="DeadLockSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alogrithm.DeadLockSample" />
+      <module name="demo-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,20 +141,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alogrithm.SynchronizedTest" />
+      <module name="demo-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DesignTest" />
-      <item itemvalue="Application.AlgorithmUtils" />
       <item itemvalue="Application.AlgTest" />
-      <item itemvalue="Application.DemoUploadApplication" />
       <item itemvalue="Application.ArrayTest" />
+      <item itemvalue="Application.SynchronizedTest" />
+      <item itemvalue="Application.DeadLockSample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockSample" />
+        <item itemvalue="Application.SynchronizedTest" />
+        <item itemvalue="Application.AlgTest" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.DesignTest" />
-        <item itemvalue="Application.AlgTest" />
-        <item itemvalue="Application.DemoUploadApplication" />
-        <item itemvalue="Application.AlgorithmUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +356,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/demo-algorithm/src/alogrithm/ArrayTest.java</url>
-          <line>249</line>
+          <line>248</line>
           <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
