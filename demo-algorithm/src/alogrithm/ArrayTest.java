@@ -224,7 +224,6 @@ public class ArrayTest {
                 nums[showIndex++] = nums[firstIndex];
             }
         }
-
         return Arrays.copyOf(nums, showIndex);
     }
 
@@ -278,7 +277,6 @@ public class ArrayTest {
             } else {
                 tSIndex = (tSIndex > 1) ? tSIndex - 2 : 0;
             }
-
         }
         String newT = Arrays.toString(Arrays.copyOf(tChar, tSIndex));
 
@@ -308,7 +306,7 @@ public class ArrayTest {
     /**
      * 给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的 连续 子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
      *
-     * @param
+     * 滑块思想(双指针的一种形式)
      * @param val
      * @param nums
      * @return int
